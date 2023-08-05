@@ -29,7 +29,7 @@ export function SiteHeader() {
               </div>
             </Link>
             <Link
-              href={siteConfig.links.twitter}
+              href={siteConfig.links.instagram}
               target="_blank"
               rel="noreferrer"
             >
