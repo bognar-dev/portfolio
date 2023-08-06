@@ -43,7 +43,7 @@ export function Combobox({ value,setValue,label,list }: ComboBoxProps) {
                     className="w-[200px] justify-between"
                 >
                     {value
-                        ? list.find((options: { value: string }) => options.value === value)?.label
+                        ? list.find((list: { value: string }) => list.value === value)?.label
                         : selectOptions}
                     <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
                 </Button>
